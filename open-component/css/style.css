@@ -1,0 +1,121 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700");
+@import url("https://use.fontawesome.com/releases/v6.1.2/css/all.css");
+
+/* Components */
+/* @import url("components/name_of_component.css"); */
+
+
+body {
+  margin: 0;
+  margin-bottom: 100px;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  background-color: orange;
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.product > img {
+  width: 15rem;
+  object-fit: cover;
+}
+
+.product-principal-image {
+  height: 20rem;
+  background-size: cover;
+  width: 96%;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-principal-image i {
+  color: green;
+  font-size: 57px;
+}
+
+.product-images > img {
+  height: 10rem;
+  object-fit: cover;
+  width: 33.4%;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+.product-images > img:last-of-type {
+  height: 10rem;
+  object-fit: cover;
+  width: 33.4%;
+  margin-bottom: 1rem;
+  margin-right: 0rem;
+}
+
+.product {
+  display: flex;
+  position: relative;
+
+}
+
+.product-detail li {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.product-detail p:first-of-type {
+  font-weight: bold;
+
+}
+
+.product-detail ul {
+  padding: 0px;
+  color: orange;
+  margin-bottom: 1rem;
+}
+
+.product-images {
+  display: flex;
+  margin: 1rem;
+}
+.product > i {
+  left: 3%;
+  position: absolute;
+  top: 7%;
+  font-size: 23px;
+  color: violet;
+}
+
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: green;
+  transition: background 0.3s ease;
+  text-decoration: none;
+  display: block;
+  width: 85%;
+  height: 13%;
+  font-size: 1.75rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn-flat:hover {
+  background: rgb(1, 71, 1);
+  color: white;
+}
+
+.product-detail {
+  margin-left: 9rem;
+}
+
+.product-detail p {
+  margin-bottom: 1rem;
+}
